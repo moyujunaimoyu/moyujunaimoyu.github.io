@@ -1,6 +1,6 @@
 @font-face{
 	font-family:"sr-font";
-	src:url("//web.moyujun.top/font/sr.woff2") format("woff2");
+	src:url("sr.woff2") format("woff2");
 }
 html{
 	filter: grayscale(0%);
@@ -9,7 +9,7 @@ body {
     font-size: 18px;
     color: #6c767d;
     background-color: #ebf1f5;
-    background-image: url(https://web.moyujun.top/index/bg.jpg);
+    background-image: url(index/bg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,8 +151,7 @@ strike {
 }
 
 .photo-bg {
-    /* background-image: url(assets/background.jpg); */
-    background-image: url(https://web.moyujun.top/index/img.png);
+    background-image: url(index/img.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
